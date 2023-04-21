@@ -15,3 +15,16 @@
 # HINTS
 # Learn to read the documentation!
 # https://ruby-doc.org/core-2.7.0/Array.html
+
+shopping_list_me = ["milk","eggs","bacon","toilet paper"]
+shopping_list_firend= ["beer","cookies","apples","toilet paper"]
+shared_shopping_list = shopping_list_me + shopping_list_firend
+shared_shopping_list = shared_shopping_list.uniq
+shared_shopping_list = shared_shopping_list.sort
+puts "buy " + shared_shopping_list [0]
+puts "buy " + shared_shopping_list [1]
+puts "buy " + shared_shopping_list [2]
+puts "buy " + shared_shopping_list [3]
+puts "buy " + shared_shopping_list [4]
+puts "buy " + shared_shopping_list [5]
+puts "buy " + shared_shopping_list [6]

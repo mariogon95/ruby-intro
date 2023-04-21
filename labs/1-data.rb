@@ -15,3 +15,20 @@
 # rand(1..6)
 # Log output to the screen with puts:
 # puts "Hello, world"
+
+die_1=rand(1..6)
+die_2=rand(1..6)
+roll = dice_1 + dice_2
+puts "Dice 1 = "+dice_1.to_s
+puts "Dice 2 = "+dice_2.to_s
+puts "Roll = "+roll.to_s
+# puts "Roll = #{roll}"
+
+
+# Professor solution
+# die1 = rand(1..6)
+# die2 = rand(1..6)
+# total = die1 + die2
+# puts "The first die is #{die1}"
+# puts "The second die is #{die2}"
+# puts "The total is #{total}"
